@@ -71,12 +71,12 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+        InlineKeyboardButton('⚙️ Channel', url='https://t.me/joinchat/xJmdQVa4qJ04ZTBl'),
+        InlineKeyboardButton('🤖 GROUP', url='https://t.me/filmcornermm'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/smile_killer_010'),
+        InlineKeyboardButton('🧩 Source', url='https://t.me/filmcornermm'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -94,12 +94,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/joinchat/xJmdQVa4qJ04ZTBl'),
+            InlineKeyboardButton('🤖 GROUP', url='https://t.me/filmcornermm'),
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/smile_killer_010'),
+            InlineKeyboardButton('🧩 Source', url='https://t.me/filmcornermm'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
