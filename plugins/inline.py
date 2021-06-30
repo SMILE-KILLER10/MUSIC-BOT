@@ -28,8 +28,8 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('⚡️Make Own Bot', url='https://heroku.com/deploy?template=https://github.com/subinps/MusicPlayer'),
-        InlineKeyboardButton('🧩 Source Code', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('⚡️GROUP', url='https://t.me/filmcornermm'),
+        InlineKeyboardButton('🧩 CHANNEL', url='https://t.me/joinchat/xJmdQVa4qJ04ZTBl'),
     ],
     [
         InlineKeyboardButton('🎧Play Music', url=f'https://t.me/{USERNAME}'),
