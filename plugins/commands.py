@@ -75,8 +75,8 @@ async def start(client, message):
         InlineKeyboardButton('🤖 GROUP', url='https://t.me/filmcornermm'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/smile_killer_010'),
-        InlineKeyboardButton('🧩 Source', url='https://t.me/filmcornermm'),
+        InlineKeyboardButton('⚓️MASTER', url='https://t.me/smile_killer_010'),
+        InlineKeyboardButton('MOVIE UPDATES', url='https://t.me/cgfilmupdates'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -94,12 +94,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/joinchat/xJmdQVa4qJ04ZTBl'),
+            InlineKeyboardButton('⚙️ Channel', url='https://t.me/joinchat/xJmdQVa4qJ04ZTBl'),
             InlineKeyboardButton('🤖 GROUP', url='https://t.me/filmcornermm'),
         ],
         [
             InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/smile_killer_010'),
-            InlineKeyboardButton('🧩 Source', url='https://t.me/filmcornermm'),
+            InlineKeyboardButton('🧩 MOVIE UPDATES', url='https://t.me/cgfilmupdates'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
