@@ -32,7 +32,7 @@ buttons = [
         InlineKeyboardButton('🧩 CHANNEL', url='https://t.me/joinchat/xJmdQVa4qJ04ZTBl'),
     ],
     [
-        InlineKeyboardButton('🎧Play Music', url=f'https://t.me/{USERNAME}'),
+        InlineKeyboardButton('MOVIES UPDATES', url=f'https://t.me/cgfilmupdates'),
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help')       
     ]
     ]
@@ -43,7 +43,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/subinps/MusicPlayer) below.</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യൂ [GROUP💘](https://t.m/filmcornermm) below.</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
